@@ -1,7 +1,7 @@
 Attributes
 ==========
 The last field of a GFF or GTF file contains attributes.  As described in
-:ref:`dialects`, these can be inconsistently formatted, but we try to the best
+:ref:`dialects`, these can be inconsistently formatted, but we try to parse them the best
 we can.  Once the attributes have been parsed, they can be accessed via
 :attr:`Feature.attributes` or using getitem syntax on the :class:`Feature`
 itself.
